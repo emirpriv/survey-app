@@ -272,7 +272,7 @@ const memories = {
       date: "",
       title: "Şimdilik bitti askim",
       description: "Zaman tünelinden bir sonraki ayı seçebilirsin.",
-      image: "public/images/memories-images/emiritto.jpg",
+      image: emiritto,
       scale: "cover"
     }
   ],
@@ -335,7 +335,7 @@ const memories = {
       date: "",
       title: "Şimdilik bitti askim",
       description: "Zaman tünelinden bir sonraki ayı seçebilirsin.",
-      image: "public/images/memories-images/emiritto.jpg",
+      image: emiritto,
       scale: "cover"
     }
   ],
@@ -380,7 +380,7 @@ const memories = {
       date: "",
       title: "Şimdilik bitti askim",
       description: "Zaman tünelinden bir sonraki ayı seçebilirsin.",
-      image: "public/images/memories-images/emiritto.jpg",
+      image: emiritto,
       scale: "cover"
     }
   ],
@@ -480,7 +480,7 @@ const memories = {
       date: "",
       title: "Şimdilik bitti askim",
       description: "Zaman tünelinden bir sonraki ayı seçebilirsin.",
-      image: "public/images/memories-images/emiritto.jpg",
+      image: emiritto,
       scale: "cover"
     }
   ],
@@ -568,7 +568,7 @@ const memories = {
       date: "",
       title: "Şimdilik bitti askim",
       description: "Zaman tünelinden bir sonraki ayı seçebilirsin.",
-      image: "public/images/memories-images/emiritto.jpg",
+      image: emiritto,
       scale: "cover"
     }
   ],
@@ -661,7 +661,7 @@ const memories = {
       date: "",
       title: "Finito",
       description: "Zaman tüneli yolculuğu bitti askim. Zarfı açmayı unutma <3",
-      image: "public/images/memories-images/emiritto.jpg",
+      image: emiritto,
       scale: "cover"
     }
   ],
