@@ -26,8 +26,8 @@ const TimeTunnel = ({ isEnvelopeClickable }) => {
         <img
           src={
             isEnvelopeClickable
-              ? "src/assets/images/timeline-data-images/envelope-red.png"
-              : "src/assets/images/timeline-data-images/envelope-gray.png"
+              ? "public/images/timeline-data-images/envelope-red.png"
+              : "public/images/timeline-data-images/envelope-gray.png"
           }
           alt="envelope"
           className={

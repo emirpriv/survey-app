@@ -16,13 +16,13 @@ function App() {
       document.title = "Kübik ❤️ Emiritto";
       const link = document.querySelector("link[rel~='icon']");
       if (link) {
-        link.href = "/src/assets/love-icon.svg";
+        link.href = "public/images/love-icon.svg";
       }
     } else {
       document.title = "ÜÜ Bitirme Projesi Anketi";
       const link = document.querySelector("link[rel~='icon']");
       if (link) {
-        link.href = "/src/assets/survey-icon.svg";
+        link.href = "public/images/survey-icon.svg";
       }
     }
   }, [showTimeline]);
