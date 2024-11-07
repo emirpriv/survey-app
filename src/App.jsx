@@ -3,6 +3,8 @@ import { useEffect, useState } from "react";
 import "./App.css";
 import Survey from "./components/Survey";
 import Timeline from "./components/Timeline";
+import loveIconSvg from "/images/love-icon.svg";
+import surveyIconSvg from "/images/survey-icon.svg";
 
 function App() {
   const [showTimeline, setShowTimeline] = useState(false);
@@ -16,13 +18,13 @@ function App() {
       document.title = "Kübik ❤️ Emiritto";
       const link = document.querySelector("link[rel~='icon']");
       if (link) {
-        link.href = "public/images/love-icon.svg";
+        link.href = loveIconSvg;
       }
     } else {
       document.title = "ÜÜ Bitirme Projesi Anketi";
       const link = document.querySelector("link[rel~='icon']");
       if (link) {
-        link.href = "public/images/survey-icon.svg";
+        link.href = surveyIconSvg;
       }
     }
   }, [showTimeline]);

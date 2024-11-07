@@ -1,6 +1,8 @@
 import { Modal } from "antd";
 import React, { useEffect, useState } from "react";
 import "../styles/time-tunnel.css";
+import envelopeGray from "/images/timeline-data-images/envelope-gray.png";
+import envelopeRed from "/images/timeline-data-images/envelope-red.png";
 
 const TimeTunnel = ({ isEnvelopeClickable }) => {
   const [width, setWidth] = useState(window.innerWidth);
@@ -24,11 +26,7 @@ const TimeTunnel = ({ isEnvelopeClickable }) => {
       <div className="container">
         <h3>Zaman Tüneline Hoş Geldiniz</h3>
         <img
-          src={
-            isEnvelopeClickable
-              ? "public/images/timeline-data-images/envelope-red.png"
-              : "public/images/timeline-data-images/envelope-gray.png"
-          }
+          src={isEnvelopeClickable ? envelopeRed : envelopeGray}
           alt="envelope"
           className={
             isEnvelopeClickable
